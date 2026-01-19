@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composition", "Composition\Composition.vcxproj", "{E8C5DE9A-7D33-4582-9EF9-BC7BC42E26A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aggregation", "Aggregation\Aggregation.vcxproj", "{81AB45B6-93E5-4016-96E0-DECB1F9EF334}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Association", "Association\Association.vcxproj", "{D0B2491E-F451-4EB0-8B8B-8F99AF75DBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C5DE9A-7D33-4582-9EF9-BC7BC42E26A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8C5DE9A-7D33-4582-9EF9-BC7BC42E26A3}.Debug|Win32.Build.0 = Debug|Win32
+		{E8C5DE9A-7D33-4582-9EF9-BC7BC42E26A3}.Release|Win32.ActiveCfg = Release|Win32
+		{E8C5DE9A-7D33-4582-9EF9-BC7BC42E26A3}.Release|Win32.Build.0 = Release|Win32
+		{81AB45B6-93E5-4016-96E0-DECB1F9EF334}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81AB45B6-93E5-4016-96E0-DECB1F9EF334}.Debug|Win32.Build.0 = Debug|Win32
+		{81AB45B6-93E5-4016-96E0-DECB1F9EF334}.Release|Win32.ActiveCfg = Release|Win32
+		{81AB45B6-93E5-4016-96E0-DECB1F9EF334}.Release|Win32.Build.0 = Release|Win32
+		{D0B2491E-F451-4EB0-8B8B-8F99AF75DBDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0B2491E-F451-4EB0-8B8B-8F99AF75DBDF}.Debug|Win32.Build.0 = Debug|Win32
+		{D0B2491E-F451-4EB0-8B8B-8F99AF75DBDF}.Release|Win32.ActiveCfg = Release|Win32
+		{D0B2491E-F451-4EB0-8B8B-8F99AF75DBDF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

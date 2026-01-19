@@ -1,0 +1,24 @@
+D:/qu/8bit_multi/bit8_adder.v {1 {vlog -work work -stats=none {D:\qu\8bit_multi\bit8_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit8_adder
+-- Compiling module half_adder
+-- Compiling module full_adder
+
+Top level modules:
+	bit8_adder
+
+} {} {}} D:/qu/8bit_multi/tb.v {1 {vlog -work work -stats=none D:/qu/8bit_multi/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/qu/8bit_multi/8bit_multi.v {1 {vlog -work work -stats=none {D:\qu\8bit_multi\8bit_multi.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit8_multi
+
+Top level modules:
+	bit8_multi
+
+} {} {}}

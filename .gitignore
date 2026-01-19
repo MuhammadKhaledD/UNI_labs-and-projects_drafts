@@ -1,0 +1,85 @@
+############################
+# General
+############################
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+.DS_Store
+Thumbs.db
+
+############################
+# Visual Studio (C++ / C#)
+############################
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.exe
+*.dll
+
+############################
+# Keil / ARM MDK
+############################
+RTE/
+Objects/
+Listings/
+*.uvoptx
+*.uvprojx
+*.uvguix.*
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.o
+*.d
+
+############################
+# ModelSim / Questa
+############################
+work/
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+
+############################
+# Quartus
+############################
+db/
+incremental_db/
+simulation/
+output_files/
+*.qws
+*.qpf
+*.qsf~
+*.sof
+*.pof
+*.jic
+*.rpt
+*.smsg
+*.summary
+*.pin
+
+############################
+# VHDL / Verilog
+############################
+*.vhd.bak
+*.vhdl.bak
+*.v.bak
+*.sv.bak
+
+############################
+# Editors / History
+############################
+.history/

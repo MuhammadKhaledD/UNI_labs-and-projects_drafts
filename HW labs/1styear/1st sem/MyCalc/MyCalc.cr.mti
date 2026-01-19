@@ -1,0 +1,6 @@
+D:/qu/MyCalc/MyCalc.v {0 {vlog -work work -stats=none {D:\qu\MyCalc\MyCalc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MyCalc
+** Error: (vlog-13038) D:\qu\MyCalc\MyCalc.v(9): near ")": Missing port in ansi port list.
+
+} {4.0 5.0} {}}

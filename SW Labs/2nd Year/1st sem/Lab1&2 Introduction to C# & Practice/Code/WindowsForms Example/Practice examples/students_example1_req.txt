@@ -1,0 +1,1 @@
+make a form with 1 label and one text box and 3 buttons, one to make the label text equal to the  textbox, another button to enable and disable the changing button , and the last to hide and unhide the label

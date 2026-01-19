@@ -1,0 +1,64 @@
+module seven_seg_display(
+    input [7:0] SW,          // 8-bit input from switches
+    output reg [6:0] HEX0,   // rightmost display
+    output reg [6:0] HEX1,   
+    output reg [6:0] HEX2    // leftmost display
+);
+    
+    reg [3:0] bcd0, bcd1, bcd2;
+    reg [7:0] temp;
+    integer i;
+    
+    // Function to convert 4-bit binary to seven segment (1 = OFF)
+    function [6:0] seven_seg;
+        input [3:0] bin;
+        begin
+            case(bin)
+                //               gfedcba
+                4'h0: seven_seg = 7'b1000000; // 0
+                4'h1: seven_seg = 7'b1111001; // 1
+                4'h2: seven_seg = 7'b0100100; // 2
+                4'h3: seven_seg = 7'b0110000; // 3
+                4'h4: seven_seg = 7'b0011001; // 4
+                4'h5: seven_seg = 7'b0010010; // 5
+                4'h6: seven_seg = 7'b0000010; // 6
+                4'h7: seven_seg = 7'b1111000; // 7
+                4'h8: seven_seg = 7'b0000000; // 8
+                4'h9: seven_seg = 7'b0010000; // 9
+                default: seven_seg = 7'b1111111; // off
+            endcase
+        end
+    endfunction
+
+    // Binary to BCD conversion
+    always @(*) begin
+        // Initialize
+        bcd0 = 0;
+        bcd1 = 0;
+        bcd2 = 0;
+        temp = SW;
+        
+        // Double dabble algorithm
+        for(i = 0; i < 8; i = i + 1) begin
+            // Add 3 if BCD digit is >= 5
+            if(bcd0 >= 5)
+                bcd0 = bcd0 + 3;
+            if(bcd1 >= 5)
+                bcd1 = bcd1 + 3;
+            if(bcd2 >= 5)
+                bcd2 = bcd2 + 3;
+                
+            // Shift left
+            bcd2 = {bcd2[2:0], bcd1[3]};
+            bcd1 = {bcd1[2:0], bcd0[3]};
+            bcd0 = {bcd0[2:0], temp[7]};
+            temp = {temp[6:0], 1'b0};
+        end
+        
+        // Convert BCD digits to seven segment
+        HEX0 = seven_seg(bcd0);
+        HEX1 = seven_seg(bcd1);
+        HEX2 = seven_seg(bcd2);
+    end
+    
+endmodule

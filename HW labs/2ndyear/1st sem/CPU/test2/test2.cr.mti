@@ -1,0 +1,176 @@
+D:/qu/2ndyear/CPU/test2/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture ALU_arch of ALU
+
+} {} {}} D:/qu/2ndyear/CPU/test2/M2W_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/M2W_Reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MEM_WB_Register
+-- Compiling architecture Behavioral of MEM_WB_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/WB_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/WB_Stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity WB_Stage
+-- Compiling architecture Behavioral of WB_Stage
+
+} {} {}} D:/qu/2ndyear/CPU/test2/ForwardUnit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/ForwardUnit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ForwardUnit
+-- Compiling architecture ForwardUnit_arch of ForwardUnit
+
+} {} {}} D:/qu/2ndyear/CPU/test2/PC_Register.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/PC_Register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_Register
+-- Compiling architecture PC_Register_arch of PC_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/CPU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/CPU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity CPU
+-- Compiling architecture struct of CPU
+-- Loading entity Memory_Fetch_Stages
+-- Loading entity Memory
+-- Loading entity IF_ID_Register
+-- Loading entity Decode_Stage
+-- Loading entity RegFile
+-- Loading entity ID_EX_Register
+-- Loading entity ForwardUnit
+-- Loading entity Excute_Stage
+-- Loading entity EX_MEM_Register
+-- Loading entity MEM_WB_Register
+-- Loading entity WB_Stage
+-- Loading entity Hazard_Unit
+
+} {} {}} D:/qu/2ndyear/CPU/test2/D2E_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/D2E_Reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ID_EX_Register
+-- Compiling architecture Behavioral of ID_EX_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/Memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory
+-- Compiling architecture Memory_arch of Memory
+
+} {} {}} D:/qu/2ndyear/CPU/test2/F2D_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/F2D_Reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IF_ID_Register
+-- Compiling architecture Behavioral of IF_ID_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/Hazard_Unit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/Hazard_Unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Hazard_Unit
+-- Compiling architecture Behavioral of Hazard_Unit
+
+} {} {}} D:/qu/2ndyear/CPU/test2/RegisterFile.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/RegisterFile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RegFile
+-- Compiling architecture Behavioral of RegFile
+
+} {} {}} D:/qu/2ndyear/CPU/test2/Memory_Fetch_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/Memory_Fetch_Stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory_Fetch_Stages
+-- Compiling architecture struct of Memory_Fetch_Stages
+-- Loading entity PC_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/Execute_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/Execute_Stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Excute_Stage
+-- Compiling architecture struct of Excute_Stage
+-- Loading entity ALU
+-- Loading entity CCR_Register
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity SP_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/SP_Register.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/SP_Register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SP_Register
+-- Compiling architecture SP_Register_arch of SP_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/Decode_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/Decode_Stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Decode_Stage
+-- Compiling architecture struct of Decode_Stage
+-- Loading entity cu
+
+} {} {}} D:/qu/2ndyear/CPU/test2/CCR.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/CCR.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CCR_Register
+-- Compiling architecture Behavioral of CCR_Register
+
+} {} {}} D:/qu/2ndyear/CPU/test2/cu.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/cu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cu
+-- Compiling architecture control_unit of cu
+
+} {} {}} D:/qu/2ndyear/CPU/test2/E2M_Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/qu/2ndyear/CPU/test2/E2M_Reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EX_MEM_Register
+-- Compiling architecture Behavioral of EX_MEM_Register
+
+} {} {}}

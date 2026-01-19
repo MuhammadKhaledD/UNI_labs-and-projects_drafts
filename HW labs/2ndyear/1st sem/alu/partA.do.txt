@@ -1,0 +1,30 @@
+vsim parta -gn=8
+# vsim parta -gn=8 
+add wave -position insertpoint sim:/parta/*
+force -freeze sim:/parta/A 00001111 0
+force -freeze sim:/parta/cin 0 0
+force -freeze sim:/parta/S 00 0
+run
+force -freeze sim:/parta/B 00000001 0
+force -freeze sim:/parta/S 01 0
+run
+force -freeze sim:/parta/A 11111111 0
+run
+force -freeze sim:/parta/S 10 0
+run
+force -freeze sim:/parta/S 11 0
+run
+force -freeze sim:/parta/S 00 0
+force -freeze sim:/parta/cin 1 0
+force -freeze sim:/parta/A 00001110 0
+run
+force -freeze sim:/parta/S 01 0
+force -freeze sim:/parta/A 11111111 0
+run
+force -freeze sim:/parta/S 10 0
+force -freeze sim:/parta/A 00001111 0
+run
+force -freeze sim:/parta/A 11110000 0
+force -freeze sim:/parta/S 11 0
+run
+

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Passing_Pointers", "Passing_Pointers\Passing_Pointers.vcxproj", "{457CA792-8116-4746-A0A3-D9AB1468F1AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dynamic_Allocation", "Dynamic_Allocation\Dynamic_Allocation.vcxproj", "{A492C9FB-FBE2-424E-A609-57FBEDCAACF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer_to_Pointer", "Pointer_to_Pointer\Pointer_to_Pointer.vcxproj", "{F54D907B-545F-4FD5-9653-AA43AEBD6CBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer_Arithmatic", "Pointer_Arithmatic\Pointer_Arithmatic.vcxproj", "{5C00019D-805B-441F-BF30-B462D3F5D233}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lifetime", "Lifetime\Lifetime.vcxproj", "{B2E4A17D-ABCA-49CC-9A18-D76BEC1DD129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457CA792-8116-4746-A0A3-D9AB1468F1AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{457CA792-8116-4746-A0A3-D9AB1468F1AC}.Debug|Win32.Build.0 = Debug|Win32
+		{457CA792-8116-4746-A0A3-D9AB1468F1AC}.Release|Win32.ActiveCfg = Release|Win32
+		{457CA792-8116-4746-A0A3-D9AB1468F1AC}.Release|Win32.Build.0 = Release|Win32
+		{A492C9FB-FBE2-424E-A609-57FBEDCAACF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A492C9FB-FBE2-424E-A609-57FBEDCAACF5}.Debug|Win32.Build.0 = Debug|Win32
+		{A492C9FB-FBE2-424E-A609-57FBEDCAACF5}.Release|Win32.ActiveCfg = Release|Win32
+		{A492C9FB-FBE2-424E-A609-57FBEDCAACF5}.Release|Win32.Build.0 = Release|Win32
+		{F54D907B-545F-4FD5-9653-AA43AEBD6CBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F54D907B-545F-4FD5-9653-AA43AEBD6CBD}.Debug|Win32.Build.0 = Debug|Win32
+		{F54D907B-545F-4FD5-9653-AA43AEBD6CBD}.Release|Win32.ActiveCfg = Release|Win32
+		{F54D907B-545F-4FD5-9653-AA43AEBD6CBD}.Release|Win32.Build.0 = Release|Win32
+		{5C00019D-805B-441F-BF30-B462D3F5D233}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C00019D-805B-441F-BF30-B462D3F5D233}.Debug|Win32.Build.0 = Debug|Win32
+		{5C00019D-805B-441F-BF30-B462D3F5D233}.Release|Win32.ActiveCfg = Release|Win32
+		{5C00019D-805B-441F-BF30-B462D3F5D233}.Release|Win32.Build.0 = Release|Win32
+		{B2E4A17D-ABCA-49CC-9A18-D76BEC1DD129}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2E4A17D-ABCA-49CC-9A18-D76BEC1DD129}.Debug|Win32.Build.0 = Debug|Win32
+		{B2E4A17D-ABCA-49CC-9A18-D76BEC1DD129}.Release|Win32.ActiveCfg = Release|Win32
+		{B2E4A17D-ABCA-49CC-9A18-D76BEC1DD129}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

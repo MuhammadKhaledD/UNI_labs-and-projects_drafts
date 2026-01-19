@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1_Rational_Numbers", "Ex1_Rational_Numbers\Ex1_Rational_Numbers.vcxproj", "{6CC0FBD5-98B3-4BE8-9A6C-F59AAB29FE7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2_MyString", "Ex2_MyString\Ex2_MyString.vcxproj", "{C3771E9E-8783-4527-AC03-5DA6F3C417FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC0FBD5-98B3-4BE8-9A6C-F59AAB29FE7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CC0FBD5-98B3-4BE8-9A6C-F59AAB29FE7A}.Debug|Win32.Build.0 = Debug|Win32
+		{6CC0FBD5-98B3-4BE8-9A6C-F59AAB29FE7A}.Release|Win32.ActiveCfg = Release|Win32
+		{6CC0FBD5-98B3-4BE8-9A6C-F59AAB29FE7A}.Release|Win32.Build.0 = Release|Win32
+		{C3771E9E-8783-4527-AC03-5DA6F3C417FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3771E9E-8783-4527-AC03-5DA6F3C417FE}.Debug|Win32.Build.0 = Debug|Win32
+		{C3771E9E-8783-4527-AC03-5DA6F3C417FE}.Release|Win32.ActiveCfg = Release|Win32
+		{C3771E9E-8783-4527-AC03-5DA6F3C417FE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
